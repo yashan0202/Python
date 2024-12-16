@@ -19,3 +19,17 @@ if spam:
     print ("This is a Spam Text")
 else:
     print ("This is not a Spam Text")
+
+
+#or
+
+p1= "make a lot of money"
+p2= "buy now"
+p3= "subscribe now"
+p4= "click this"
+
+text = input("Enter your message: ")
+if(p1 in text or p2 in text or p3 in text or p4 in text):
+    print("This is a Spam Text")
+else:
+    print("This is not a Spam Text")

@@ -20,3 +20,23 @@ if(f1>f2):
 else:
     print("The Greatest Number is ",f2)
 
+
+#or
+
+n1= int(input("Enter number: "))
+n2= int(input("Enter number: "))
+n3= int(input("Enter number: "))
+n4= int(input("Enter number: "))
+
+if n1>n2 and n1>n3 and n1>n4:
+    print(n1, "is the greatest")
+    
+elif n2>n1 and n2>n3 and n3>n4:
+    print(n2, "is the greatest")
+    
+elif n3>n1 and n3>n2 and n3>n4:
+    print(n3, "is the greatest")
+    
+else:
+    print(n4, "is the greatest")
+

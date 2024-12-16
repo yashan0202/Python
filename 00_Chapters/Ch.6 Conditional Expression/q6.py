@@ -8,3 +8,13 @@ if name in list:
     print(name, "is present in the list")
 else:
     print("Name is not present")
+
+
+# WAP to find whether a certain paragraph is talking about yash or not
+
+para = input("Enter the paragraph: ")
+
+if 'yash' in para.lower():
+    print("Yash is present in the paragraph")
+else:
+    print("Yash is not present in the paragraph")
