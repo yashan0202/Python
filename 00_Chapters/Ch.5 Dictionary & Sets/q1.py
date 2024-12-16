@@ -12,3 +12,15 @@ engDict = {
 print("Your options are:",engDict.keys()) # optional
 a = input("Enter the Hindi word: \n")
 print("The meaning of this word is: ",engDict.get(a))
+
+#or
+
+dict = {
+    "ghadi": "Watch",
+    "kalam": "Pen",
+    "namak": "Salt",
+    "haldi": "Turmeric"
+}
+word = input("Enter the word you want the meaning of: ")
+print(dict[word])
+
