@@ -11,3 +11,6 @@ Up above the world so high.
 Like a diamond in the sky.
 Twinkle twinkle little star.
 How I wonder what you are.''')
+
+print("yash",end="")
+print("anand",end="") #end prevents the default new line of the print() function
