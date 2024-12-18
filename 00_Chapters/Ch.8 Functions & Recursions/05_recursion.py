@@ -1,7 +1,7 @@
 '''
 factorial(n) = n X n-1 X ...... 3 X 2 X 1 
 
-factorial(n) = n * factorial(n-1)
+factorial(n) = n * factorial(n-1) # defination of factorial #yaad kar lo yeh line
 '''
 
 def factorial(n):

@@ -13,4 +13,4 @@ def f_to_c(f):
 f = int(input("Enter temperature in Fehrenheit: "))
 c= f_to_c(f)
 
-print(f"The temperature in Celcius is {round(c,2)}°C")
+print(f"The temperature in Celcius is {round(c,2)}°C") #round() is used to round off the value to 2 decimal places

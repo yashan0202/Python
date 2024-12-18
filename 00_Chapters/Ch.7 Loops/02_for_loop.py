@@ -26,6 +26,7 @@ print("\nDone\n")
 list=['Mango','Grapes','Orange','Apple','Banana']
 for item in list: #or for i in list: print(i)
     print(item)
+    print(list)
 
 print("\nDone\n")
 

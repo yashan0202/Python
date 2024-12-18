@@ -22,3 +22,12 @@ def avg():
 avg()
 avg()
 avg()
+
+
+'''----------------------------------------------------------------------------------------------------'''
+def greet():
+    name=input("Whats your name: ")
+    print(f"hello! {name}")
+    
+greet()
+greet()

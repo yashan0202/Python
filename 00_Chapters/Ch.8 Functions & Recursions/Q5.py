@@ -9,8 +9,8 @@ for n=3
 def pattern(n):
     if n==0:
         return
-    print("*"*n)
-    pattern(n-1)
+    print("*"*n) #n jitni baar hai utni baar * print karega
+    pattern(n-1) #fir n-1 * print karega zero tak, zero aane ke baad terminate ho jayega
 
 n = int(input("Enter the number: "))
 pattern(n)
