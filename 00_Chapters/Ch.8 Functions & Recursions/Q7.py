@@ -7,9 +7,7 @@ def remove(list, word):
             new_list.append(item.strip(word))
     return new_list
         
-
 list = ['yash', 'nandini', 'anand', 'aditya', 'parth', 'an']
-
 print(remove(list, 'an'))
 
 #or
