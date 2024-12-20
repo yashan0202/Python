@@ -9,7 +9,7 @@ def game():
     print("You are playing a game...")
     score = random.randint(1, 100)
     # fetch the highscore
-    with open("C:\\Users\\yashu\\Desktop\\Lavanya\\Python (CodeWithHarry)\\Python\\00_Chapters\\Ch.9 File I\O\\Q3_highscore.txt") as f:
+    with open("C:\\Users\\yashu\\Desktop\\Lavanya\\Python (CodeWithHarry)\\Python\\00_Chapters\\Ch.9 File I-O\\Q3_highscore.txt") as f:
         highscore = f.read()
         if (highscore != ""):
             highscore = int(highscore)
@@ -19,7 +19,7 @@ def game():
     print(f"Your score is {score}")
     if (score>highscore):
         # write this highscore to the file
-        with open("C:\\Users\\yashu\\Desktop\\Lavanya\\Python (CodeWithHarry)\\Python\\00_Chapters\\Ch.9 File I\O\\Q3_highscore.txt", "w") as f:
+        with open("C:\\Users\\yashu\\Desktop\\Lavanya\\Python (CodeWithHarry)\\Python\\00_Chapters\\Ch.9 File I-O\\Q3_highscore.txt", "w") as f:
             f.write(str(score))
 
     return score
