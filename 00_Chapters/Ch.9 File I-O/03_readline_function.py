@@ -1,6 +1,6 @@
 f = open("C:\\Users\\yashu\\Desktop\\Lavanya\\Python (CodeWithHarry)\\Python\\00_Chapters\\Ch.9 File I-O\\01_file.txt", "r")
 
-'''1 readline() function'''
+'''1 readline() function is used to read line by line'''
 
 lines = f.readlines()
 print(lines,type(lines))
