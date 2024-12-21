@@ -18,7 +18,8 @@
                 <li><strong>Chapter 8:</strong> Functions and Recursions</li>
                 <li><strong>Chapter 9:</strong> File I/O</li>
                 <li><strong>Chapter 10:</strong> Object-Oriented Programming</li>
-                <li><strong>Chapter 11 & 12:</strong> Advanced Python and Logic Building</li>
+                <li><strong>Chapter 11:</strong> Inheritence & more in OOP</li>
+                <li><strong>Chapter 12 & 13:</strong> Advanced Python and Logic Building</li>
             </ul>
         </li>
         <li><strong>Minor Projects:</strong> Fun and interactive projects like:
