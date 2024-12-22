@@ -1,3 +1,7 @@
+'''
+Koi bhi function jo __ se start hota hai usse dunder method kehte hai.
+'''
+
 class Employee:
     name = "Yash"
     language = "Python"
