@@ -1,3 +1,7 @@
+'''
+@property decorator ke help se hum aise methods bana sakte hain jo "return" karte hain kuch value
+'''
+
 class Employee:
     company = "Google"
 
