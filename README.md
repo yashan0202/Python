@@ -78,4 +78,4 @@
         It combines a structured syllabus, practical projects, and interview preparation materials, empowering users to become confident in Python programming.
     </p>
 
-<h2>Developed by: Yash Anand</h2>
+<h2>Developed by: Yash Anand </h2>
