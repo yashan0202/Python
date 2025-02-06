@@ -20,3 +20,23 @@ for char in txt:  # Iterate through each character in the input string
         new_txt += char  # Add the character to the new string
 
 print("String without spaces:", new_txt)  # Print the final result
+
+'''
+Now only keep 1 space and remove the rest of the empty spaces in a string.
+'''
+
+txt = input("Enter a string: ")  
+new_txt = ""  
+space_flag = False  # Flag to track spaces
+
+for char in txt:  
+    if char != " ": 
+        new_txt += char  
+        space_flag = True  # Set flag to indicate a word is being processed
+    else:
+        if space_flag:  # Only add a single space if the last character was not a space
+            new_txt += " "
+            space_flag = False  # Reset the flag to prevent extra spaces
+
+print("Final String is:", new_txt)  
+
